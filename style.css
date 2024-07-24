@@ -98,8 +98,16 @@ button {
 .btnnav {
   float: right;
   margin-right: 20px;
-  width: 100px;
-  height: 60px;
+  width: 300px;
+  height: 80px;
+}
+.prev {
+  width: 150px;
+  height: 40px;
+}
+.next {
+  width: 150px;
+  height: 40px;
 }
 .card {
   display: flex;
@@ -141,3 +149,27 @@ img {
   font-weight: bold;
   font-size: 40px;
 }
+
+#about {
+  height: 60vh;
+}
+
+.us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutcontainer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: wrap;
+}
+
+.btnlearn {
+  display: block;
+}
+
+/* .expert {
+  text-indent: 50px;
+} */

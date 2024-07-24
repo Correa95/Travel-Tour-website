@@ -10,15 +10,47 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <nav class="navbar">
+      <h1 class="logo">Mario</h1>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="place.html">Place</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Galery</a></li>
+        <li><a href="client.html">Client</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
     <section id="place">
       <h1 class="popularplace">Popular Tour Places</h1>
-      <button class="btnprev">
-        previous<button class="btnnext">next</button>
-      </button>
+      <div class="btnnav">
+        <button class="prev">previous<button class="next">next</button></button>
+      </div>
+      <div class="card">
+        <div class="placedetail">
+          <img src="image/London-tours.jpg" alt="London Buckingham Palace" />
+          <h1 class="header">Buckingham Palace</h1>
+          <h2 class="placename">London</h2>
+          <amount class="price">$2000</amount>
+        </div>
+        <div class="placedetail">
+          <img src="image/paris-france.jpg" alt="Paris Ieffel Tower" />
+          <h1 class="header">Ieffel Tower</h1>
+          <h2 class="placename">Paris</h2>
+          <amount class="price">$200</amount>
+        </div>
+        <div class="placedetail">
+          <img src="image/Dubai.jpg" alt="" />
+          <h1 class="header">Modern Dubai</h1>
+          <h2 class="placename">Dubai</h2>
+          <amount class="price">$1000</amount>
+        </div>
+      </div>
     </section>
   </body>
 </html>

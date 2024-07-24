@@ -12,19 +12,20 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Travel Tour Website</title>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <section id="homepage">
       <nav class="navbar">
         <h1 class="logo">Mario</h1>
         <ul>
-          <li href="/home.html">Home</li>
-          <li href="/place.html">Place</li>
-          <li>About</li>
-          <li>Galery</li>
-          <li>Client</li>
-          <li>Team</li>
-          <li>Contact Us</li>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="place.html">Place</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Galery</a></li>
+          <li><a href="client.html">Client</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav>
       <div class="container">
@@ -39,29 +40,50 @@
     </section>
     <section id="place">
       <h1 class="popularplace">Popular Tour Places</h1>
-      <button class="btnnav">
-        previous<button class="btnnav">next</button>
-        <div class="card">
-          <div class="placedetail">
-            <img src="image/London-tours.jpg" alt="London Buckingham Palace" />
-            <h1 class="header">Buckingham Palace</h1>
-            <h2 class="placename">London</h2>
-            <amount class="price">$2000</amount>
-          </div>
-          <div class="placedetail">
-            <img src="image/paris-france.jpg" alt="Paris Ieffel Tower" />
-            <h1 class="header">Ieffel Tower</h1>
-            <h2 class="placename">Paris</h2>
-            <amount class="price">$200</amount>
-          </div>
-          <div class="placedetail">
-            <img src="image/Dubai.jpg" alt="" />
-            <h1 class="header">Modern Dubai</h1>
-            <h2 class="placename">Dubai</h2>
-            <amount class="price">$1000</amount>
-          </div>
+      <div class="btnnav">
+        <button class="prev">previous<button class="next">next</button></button>
+      </div>
+      <div class="card">
+        <div class="placedetail">
+          <img src="image/London-tours.jpg" alt="London Buckingham Palace" />
+          <h1 class="header">Buckingham Palace</h1>
+          <h2 class="placename">London</h2>
+          <amount class="price">$2000</amount>
         </div>
-      </button>
+        <div class="placedetail">
+          <img src="image/paris-france.jpg" alt="Paris Ieffel Tower" />
+          <h1 class="header">Ieffel Tower</h1>
+          <h2 class="placename">Paris</h2>
+          <amount class="price">$200</amount>
+        </div>
+        <div class="placedetail">
+          <img src="image/Dubai.jpg" alt="" />
+          <h1 class="header">Modern Dubai</h1>
+          <h2 class="placename">Dubai</h2>
+          <amount class="price">$1000</amount>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="us">Who we are?</h1>
+      <div class="aboutcontainer">
+        <img src="image/expert.jpg" alt="our Tour guide" />
+        <h2 class="expert">We are Travel Experts</h2>
+        <p class="expert">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe ut ex
+          veniam nisi veritatis provident voluptatum, qui optio magnam tenetur
+          beatae ipsa? At distinctio reiciendis tenetur ab. Fugiat itaque
+          reiciendis praesentium necessitatibus perferendis alias, sunt quidem
+          a. Aliquam consectetur ad facilis placeat nulla quibusdam corporis
+          ipsum minima. Dolorem nisi quisquam molestias eum dolor sequi amet est
+          iste sit cum quaerat esse ullam aperiam aliquid excepturi autem
+          accusamus expedita tenetur laborum a officia, eius adipisci harum
+          quas. Sapiente vel cum quam molestiae fugiat quasi animi, aperiam nisi
+          fuga recusandae soluta maxime perspiciatis quis repellendus laborum
+          ullam voluptatum omnis saepe, sit amet.
+        </p>
+        <button class="btnlearn">Learn More</button>
+      </div>
     </section>
   </body>
 </html>
